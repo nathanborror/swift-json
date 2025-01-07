@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-json-schema",
+    name: "swift-json",
     platforms: [
         .iOS(.v16),
         .macOS(.v13),
@@ -12,9 +12,9 @@ let package = Package(
         .tvOS(.v16),
     ],
     products: [
-        .library(name: "JSONSchema", targets: ["JSONSchema"]),
+        .library(name: "JSON", targets: ["JSON"]),
     ],
     targets: [
-        .target(name: "JSONSchema"),
+        .target(name: "JSON"),
     ]
 )
